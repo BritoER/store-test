@@ -1,0 +1,33 @@
+<style>
+h1 {
+    color: black;
+}
+nav {
+    background-color: antiquewhite;
+    padding: -10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 30px;
+}
+header {
+    margin-top: 55px;
+    background-color: cadetblue;
+    text-align: center;
+}
+footer {
+    background-color: blanchedalmond;
+}
+ul{
+    text-align: center;
+}
+li {
+    display: inline;
+}
+a {
+    color: darkslategrey;
+}
+body {
+    margin: 0%;
+}
+</style>
