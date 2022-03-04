@@ -57,7 +57,7 @@ body {
     max-width: 15%;
     top: 450;
     border-radius: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 .select{
     border-top: 1px dotted black;
@@ -79,22 +79,44 @@ body {
     height: 7cm;
     text-align: center;
     margin-bottom: 40px;
+    transition: background-color 1s;
+    overflow: auto;
 }
 nav a:hover { color: tomato;}
 .item2{
-    position: static;
+    position:static;
     background-color: blanchedalmond;
     box-shadow: 2px 0px 4px gray;
     margin-left: 50%;
-    margin-right: 5%;
     border-radius: 20px; 
     width: 20%;
     height: 7cm;
     text-align: center;
     margin-bottom: 40px;
+    top: 0px;    
+    transition: background-color 1s;
+    overflow:auto;
+}
+.item3{
+    position:absolute;
+    background-color: blanchedalmond;
+    box-shadow: 2px 0px 4px gray;
+    margin-left: 76.2%;
+    border-radius: 20px; 
+    width: 20%;
+    height: 7cm;
+    text-align: center;
+    margin-bottom: 40px;
+    top: 0px;    
+    transition: background-color 1s;
+    overflow:auto;
 }
 .display-item li {
     display: inline;
 }
-
+div .item3:hover,.item2:hover,.item:hover {
+    background-color: tomato;
+}
+li li{
+}
 </style>
