@@ -13,7 +13,7 @@ nav {
     top: 0;
     width: 100%;
     margin-bottom: 30px;
-    box-shadow: 0px 1px 8px;
+    box-shadow: 0px 1px 10px;
 }
 header {
     margin-top: 50px;
@@ -23,16 +23,13 @@ header {
 footer {
     background-color: blanchedalmond;
 }
-ul{
+.nav-bar{
     text-align: center;
 }
-li {
-    display: inline;
-    padding: 0px 30px 0px 30px;
-}
 a {
-    color: black ;
-    text-decoration-style:dotted;
+    color: black;
+    transition: color .2s;
+    text-decoration: none;
 }
 body {
     margin: 0%;
@@ -42,17 +39,62 @@ body {
     padding-top: 0px;
     height: 600px;
     background-image: linear-gradient(#609DA0, white);
-    position: relative;
+    position:static;
 }
 .main-content{
-    background-color: white;
     text-align: justify;
     position: relative;
     max-width: 90%;
     margin-left: auto;
     margin-right: auto;
-    top: -500px;
+    top: -450px;
     border-radius: 0px;
-    box-shadow: 2px 5px 20px gray;
 }
+#select-bar{
+    box-shadow: 2px 0px 4px gray;
+    margin-left: 0%;
+    margin-right: 5%;
+    max-width: 15%;
+    top: 450;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.select{
+    border-top: 1px dotted black;
+    padding: ;
+}
+.nav-bar > li {
+    display: inline;
+    padding: 0px 30px 0px 30px;
+}
+.item{
+    position: static;
+    background-color: blanchedalmond;
+    box-shadow: 2px 0px 4px gray;
+    margin-left: 25%;
+    margin-right: 5%;
+    top: 500px;
+    border-radius: 20px; 
+    width: 20%;
+    height: 7cm;
+    text-align: center;
+    margin-bottom: 40px;
+}
+nav a:hover { color: tomato;}
+.item2{
+    position: static;
+    background-color: blanchedalmond;
+    box-shadow: 2px 0px 4px gray;
+    margin-left: 50%;
+    margin-right: 5%;
+    border-radius: 20px; 
+    width: 20%;
+    height: 7cm;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.display-item li {
+    display: inline;
+}
+
 </style>
